@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;;
+}
+
+.container{
+    width: 1370px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.adventure-cerd{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    width: 100%;
+    
+}
+.first-header{
+    display: flex; 
+    justify-content: space-between;
+}
+.adventure-logo h1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    padding: 35px;
+    font-family: 'Lobster', cursive;
+}
+.adventure-menu ul li {
+    display: inline-block;
+}
+.adventure-menu ul li a {
+    text-decoration: none;
+    color:#fff;
+    display: flex;
+    padding: 16px 30px;
+    font-family: 'Raleway', sans-serif;;
+   
+}
+.adventure-menu ul li a:hover{
+    color: #a8a0a0;;
+    transition: 0.5s;
+}
+.adventure-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.first-section{
+    background-image: url(../img/header-img-2.jpg);
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+.box-border{
+    border: 5px solid #ffc107;
+    width: 442px;
+    height: 214px;
+    left: 200px;
+    position: absolute;
+    top: 280px;
+}
+.adventure-begins{
+    background-color: rgba(245, 245, 245, 0.92);
+    position: absolute;
+    top: 386px;
+    left: 290px;
+    padding: 30px;
+
+}
+.adventure-begins h6{
+    color: #000;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100
+}
+.adventure-begins h2{
+    color: #01d07e;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.about-us-1{
+    background-image: url(../img/ab1.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+    margin: 60px 20px;
+}
+.about-us-2{
+    background-image: url(../img/ab2.jpg);
+    background-size:cover;
+    height: 350px;
+    width: 250px;
+    margin: 60px 20px;
+}
+.about-us-3{
+    background-image: url(../img/ab3.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 250px;
+    margin: 60px 20px;
+}    
+.about-us-text{
+    width: 250px;
+    margin: 60px 20px;
+}
+.about-us-text h3{
+    margin: 17px 1px;
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 35px;
+    color: #ffc107;
+    font-weight: 400;
+}
+.about-us-text h5{
+    font-family: 'Lobster', cursive;
+    font-size: 21px;
+}
+.about-us-image-text {
+    display: flex;
+    justify-content: center;
+}
+.find-a-adventure-header-text{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+.find-a-adventure-header-text h6{
+    font-size: 20px;
+    font-family: cursive;
+    color: #fff;
+    margin: 60px 10px 10px;
+}
+.find-a-adventure-header-text h4{
+    font-size: 38px;
+    /* font-family: math;  */
+    color: #ffc107;
+    font-weight: 400;
+}
+.find-a-adventure-cerd{
+    height: 660px;
+}
+.find-a-adventure-img{
+    background-image: url(../img/Find-A-Adventure.jpg);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.find-a-adventure-menu{
+    position: relative;
+    top: -347px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.cruises-cerd , .Hiking-cerd ,.Wildlife-cerd ,.fire-camp-cerd ,.calming-cerd, .air-ride-cerd{
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    padding: 50px;
+    text-align: center;
+    width: 198px;
+    height: 198px;
+}
+.cruises-cerd i, .Hiking-cerd i,.Wildlife-cerd i,.fire-camp-cerd i,.calming-cerd i, .air-ride-cerd {
+    color: #fff;    
+}
+.cruises-cerd h6 , .Hiking-cerd h6,.Wildlife-cerd h6,.fire-camp-cerd h6,.calming-cerd h6, .air-ride-cerd h6{
+    color: #ffc107;
+}
+.services-text{
+    text-align: center;
+}
+.services-text h6{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.services-text h4{
+    font-size: 38px;
+    color: #ffc107;
+    font-weight: 100;
+    line-height: 60px
+}
+.adventure-offer-cerd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.adventure-offer-menu {
+    width: 25%;
+    background-color: #ffffff;
+    border: 0 solid #fff;
+    padding: 20px 60px;
+    margin: 15px;
+    box-shadow: 0px 0px 9px #b7b7b7;
+}
+.adventure-offer-cerd{
+    margin-top: 50px;
+}
+.adventure-offer-menu i{
+    font-size: 27px;
+}
+.adventure-offer-menu h4{
+    color: #01d07e;
+    font-size: 21px;
+    line-height: 50px;
+    font-weight: 500;
+}
+.adventure-offer-menu:hover{
+    background-color: #efefef;
+    transition: 1s;
+}
+.your-special-tour-today-img{
+    background-image: url(../img/ab4.jpg);
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.your-special-tour-today-cerd{
+    height: 460px;
+}
+.your-special-tour-today-text{
+    background-color: #eaeaea;
+    width: 50%;
+    padding: 5em 6em;
+
+}
+.your-special-tour-today-img-text{
+    display: flex;
+    margin-top: 60px;
+}
+.your-special-tour-today-text h3 {
+    font-size: 30px;
+    line-height: 80px;
+    color: #01d07e;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.your-special-tour-today-text p{
+    color: #545252;
+    line-height: 26px;
+    font-size: 16px;
+}
+.your-special-tour-today-boredr{
+    border: 5px solid #01d07e;
+    position: absolute;
+    width: 315px;
+    height: 210px;
+    left: 33%;
+}
+.gallery-cerd{
+    text-align: center;
+    margin: 50px 0;
+}
+.gallery-text h6{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.gallery-text h4{
+    font-size: 38px;
+    color: #ffc107;
+    font-weight: 100;
+    line-height: 60px;
+    margin-bottom:40px ;
+}
+.image-1{
+    background-image: url(../img/g4.jpg);
+    height: 260px;
+    width: 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px;
+}
+.image-2{
+    background-image: url(../img/g5.jpg);
+    height: 260px;
+    width: 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+}
+.image-3{
+    background-image: url(../img/g6.jpg);
+    height: 260px;
+    background-repeat: no-repeat;
+    width: 35%;
+    background-size: cover;
+    margin: 10px 0px;
+}
+.image-4{
+    background-image: url(../img/ab4.jpg);
+    height: 260px;
+    background-repeat: no-repeat;
+    width: 35%;
+    background-size: cover;
+    margin: 10px 0px;
+}
+.image-5{
+    background-image: url(../img/g2.jpg);
+    height: 260px;
+    width: 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 10px;
+}
+.image-6{
+    background-image: url(../img/g3.jpg);
+    height: 260px;
+    width: 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px;
+}
+.gallery-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lorem-ipsum-dolor-text{
+    background-color: #eaeaea;
+    height: 400px;
+    width: 50%;
+    padding: 6em 5em 4em;
+}
+.lorem-ipsum-dolor-img-1{
+    background-image: url(../img/b4.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    padding: 6em 5em 4em;
+}
+.lorem-ipsum-dolor-img-2{
+    background-image: url(../img/g6.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    padding: 6em 5em 4em;
+}
+.lorem-ipsum-dolor-cerd{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0PX;
+}
+.lorem-ipsum-dolor-text p a ,.lorem-ipsum-dolor-img-1 p a ,.lorem-ipsum-dolor-img-2 p a{
+    text-decoration: none;
+    color: #a0a0a0;
+}
+.lorem-ipsum-dolor-text h3 ,.lorem-ipsum-dolor-img-1 h3,.lorem-ipsum-dolor-img-2 h3{
+    font-size: 25px;
+    line-height: 60px;
+    color: #01d07e;
+}
+.lorem-ipsum-dolor-text p , .lorem-ipsum-dolor-img-1 p ,.lorem-ipsum-dolor-img-2 p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #a0a0a0;
+}
+.lorem-ipsum-dolor-text .btn-more ,.btn-more-2{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 6px 13px;
+    display: inline-block;
+    margin: 15px 0px;
+}
+.lorem-ipsum-dolor-text .btn-more:hover , .btn-more-2:hover     {
+     /* background-color: #a8a3a3; */
+     opacity: 0.7;
+}
+.booking-header {
+    text-align: center;
+}
+.booking-header h6{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.booking-header h4{
+    font-size: 38px;
+    color: #ffc107;
+    font-weight: 100;
+    line-height: 60px;
+    margin-bottom:40px ;
+}
+.everest-camps-img-1{
+    background-image: url(../img/Booking-image-1.jpg);
+    background-size: cover;
+    height: 182px;
+    width: 260px;
+}
+.everest-camps-img-2{
+    background-image: url(../img/booking-image-2.jpg);
+    background-size: cover;
+    height: 182px;
+    width: 260px;
+}
+.everest-camps-img-3{
+    background-image: url(../img/g5.jpg);
+    background-size: cover;
+    height: 182px;
+    width: 260px;
+}
+.everest-camps-img-4{
+    background-image: url(../img/booking-image-4.jpg);
+    background-size: cover;
+    height: 182px;
+    width: 260px;
+}
+.booking-menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 7em;
+
+}
+.everest-camps-img-1 i,.everest-camps-img-2 i,.everest-camps-img-3 i ,.everest-camps-img-4 i{
+    color: #ffc107;
+    margin: 21px 2px;
+    font-size: 15px;
+}
+.everest-camps-text h5{
+    font-size: 23px;
+    color: #ffc107;
+    margin: 15px 0px;
+    font-weight: 400;
+}
+.everest-camps-text p{
+    width: 260px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.everest-camps-btn-dolar{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.everest-camps-btn a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px 0px;
+    color: #28a745;
+}
+.everest-camps-dolar h6{
+    margin: 14px 0px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.subscribe-img{
+    background-image: url(../img/b4.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.subscribe-text{
+    text-align: center;
+    padding: 55px 0;
+}
+.subscribe-text h6{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+.subscribe-text h4{
+    font-size: 38px;
+    color: #ffc107;
+    font-weight: 100;
+    line-height: 60px;
+}
+.subscribe-form{
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.34901960784313724)
+}
+.subscribe-form form input{
+    width: 70%;
+    padding: 14px 8px;
+    font-size: 15px;
+}
+.subscribe-form form button{
+    padding: 13px 40px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #01d07e;
+    border: 0;
+    width: 28%;
+}
+.subscribe-cerd{
+    margin: 40px 0px;
+}
+.contact-header{
+    text-align: center;
+}
+.contact-header h6{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+} 
+.contact-header h4{
+    font-size: 38px;
+    color: #ffc107;
+    font-weight: 300;
+    line-height: 60px;
+}
+.contact-map-form{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    position: relative;
+    left: 70px;
+}
+.contact-map-form iframe{
+    padding: 30px;
+}
+.contact-form{
+    padding: 30px 0px;
+}
+.contact-form form input{
+    width: 33%;
+    display: inline-block;
+    padding: 10px 7px;
+    margin: 10px 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.contact-form form textarea{
+    width: 70%;
+    margin: 4px 10px;
+    padding: 10px;
+}
+.contact-form form button{
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #01d07e;
+    border: 0;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.address-phone-email-cerd{
+    width: 100%;
+    height: 400px;
+    background-color: #313131;
+}
+.address-text{
+    text-align: center;
+    padding-top: 5em;
+}
+.address-text p{
+    color: #989393;
+    padding: 4px;
+}
+.address-text p samp{
+    color: #fff;
+}
+.address-ican{
+    display: flex;
+    justify-content: center;
+}
+.address-ican{
+    text-align: center;
+    padding-top: 30px;
+}
+.address-ican .facebook-ican {
+    color: blue;
+}
+.facebook-ican i{
+    padding: 10PX;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+}
+.twitter-ican i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.address-ican .twitter-ican{
+    color: rgb(38, 38, 136);
+    padding: 0px 20px;
+}
+.wifi-ican a{
+    color: #fff;
+    width: 36px;
+    height: 40px;
+}
+.wifi-ican i{
+    background: #f26522;
+    padding: 10px;
+    border-radius: 50%;
+}
+.address-ican-last{
+    text-align: center;
+    padding-top: 30px;
+}
+.address-ican-last i{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+footer{
+ width: 100%;
+ height: 90px;
+ text-align: center;
+ background-color: #000;
+}
+.footer p{
+    color: #fff;
+    padding-top: 28px;
+}
+.footer p a{
+    text-decoration: none;
+    color: red;
+}
+
+/* @media only screen and (max-width:400px){
+    .adventure-logo h1 a{
+        color: #000;
+    }
+} 
+@media only screen and (max-width:800px) and (min-width:500px){
+    .adventure-logo h1 a{
+        color: #bc3131;
+    }
+}  */
